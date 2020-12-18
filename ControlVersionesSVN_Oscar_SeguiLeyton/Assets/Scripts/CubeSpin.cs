@@ -47,7 +47,7 @@ public class CubeSpin : MonoBehaviour
             angle = angle + (Mathf.Round(angle / 90) * 90 - angle) * stopTimer / stopDuration;
         }
 
-        transform.rotation = Quaternion.Euler(0, angle, 0); // Rotación en eje Y
+        transform.rotation = Quaternion.Euler(0, angle, 0); // Cambio rotación eje Y
 
         clicked = false;
     }
